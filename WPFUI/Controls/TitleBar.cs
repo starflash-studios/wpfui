@@ -17,7 +17,9 @@ namespace WPFUI.Controls
         // TODO: Icon
         // TODO: Title
 
+/*
         Common.SnapLayout _snapLayout;
+*/
 
         /// <summary>
         /// Property for <see cref="IsMaximized"/>.
@@ -106,7 +108,7 @@ namespace WPFUI.Controls
         }
 
         /// <summary>
-        /// Creates a new instance of the class and sets the default <see cref="Common.RelayCommand"/> of <see cref="BorderCommand"/>.
+        /// Creates a new instance of the class and sets the default <see cref="Common.RelayCommand"/> of <see cref="ButtonCommand"/>.
         /// </summary>
         public TitleBar()
         {
