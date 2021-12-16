@@ -1,14 +1,20 @@
 # WPF UI
 [Created with ❤ in Poland by lepo.co](https://dev.lepo.co/)  
+[Forked with ☕ in Australia by Neonalig](https://github.com/neonalig)  
 A simple way to make your application written in WPF keep up with modern design trends. Library changes the base elements like Page, ToggleButton or List, and also includes additional controls like Navigation, NumberBox, Dialog or Snackbar.
 
 [![GitHub license](https://img.shields.io/github/license/lepoco/wpfui)](https://github.com/lepoco/wpfui/blob/master/LICENSE) [![NET](https://img.shields.io/badge/.NET-6.0.0-red)](https://github.com/lepoco/wpfui/blob/main/WPFUI/WPFUI.csproj) [![Nuget](https://img.shields.io/nuget/v/WPF-UI)](https://www.nuget.org/packages/WPF-UI/) [![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/WPF-UI?label=nuget-pre)](https://www.nuget.org/packages/WPF-UI/) [![Nuget](https://img.shields.io/nuget/dt/WPF-UI?label=nuget-downloads)](https://www.nuget.org/packages/WPF-UI/) [![CodeFactor](https://www.codefactor.io/repository/github/lepoco/wpfui/badge)](https://www.codefactor.io/repository/github/lepoco/wpfui)
 
+## What's this?
+This is a simple fork of [wpfui](https://github.com/lepoco/wpfui) created for the sake of simplifying .NET framework dependency issues when building, and restoring some since removed features (such as the 'CardProfile'). This is only intended for use by [DownTube](https://github.com/starflash-studios/downtube), as there is no real benefit to using this over the original repository (though of course there is nothing stopping you.)
+
+## Should I be using this for my own project?
+Not really. This version is likely to become outdated relatively quickly, and apart from being 'modernised' with some newer C# 10.0 features (such as better nullability attributes, records and so on), it can simply be ignored.
+
 ## What's included?
 | Name| Framework | Build Status |
 | --- | --- | --- | 
-| **WPFUI**<br />Library that allows you to use all features in your own application | .NET 6.0 Windows,<br/>.NET 5.0 Windows,<br/>.NET Core 3.1<br/>.NET Framework 4.8<br/>.NET Framework 4.7<br/>.NET Framework 4.6 | [![Build status](https://github.com/lepoco/wpfui/workflows/CI/badge.svg)](https://github.com/lepoco/wpfui/actions) | 
-| **WPFUI.Demo**<br />An application written in WPF .NET 6 where you can test the features. | .NET 6.0 Windows 11 | [![Build status](https://github.com/lepoco/wpfui/workflows/CI/badge.svg)](https://github.com/lepoco/wpfui/actions) |
+| **WPFUI**<br />Library that allows you to use all features in your own application | .NET 6.0 Windows | [![Build status](https://github.com/lepoco/wpfui/workflows/CI/badge.svg)](https://github.com/lepoco/wpfui/actions) | 
 
 ## Screenshots
 ![Screen-4](https://github.com/lepoco/wpfui/blob/main/.github/assets/screen-4.png?raw=true)
