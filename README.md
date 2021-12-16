@@ -8,7 +8,7 @@ A simple way to make your application written in WPF keep up with modern design 
 ## What's this?
 This is a simple fork of [wpfui](https://github.com/lepoco/wpfui) created for the sake of simplifying .NET framework dependency issues when building, and restoring some since removed features (such as the 'CardProfile'). This is only intended for use by [DownTube](https://github.com/starflash-studios/downtube), as there is no real benefit to using this over the original repository (though of course there is nothing stopping you.)
 
-## Should I be using this for my own project?
+## Should I use this specific fork for my own project?
 Not really. This version is likely to become outdated relatively quickly, and apart from being 'modernised' with some newer C# 10.0 features (such as better nullability attributes, records and so on), it can simply be ignored.
 
 ## What's included?
