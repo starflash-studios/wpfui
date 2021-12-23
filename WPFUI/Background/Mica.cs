@@ -138,12 +138,14 @@ namespace WPFUI.Background
             {
                 User32.SetWindowLong(handle, -16, User32.GetWindowLong(handle, -16) & ~0x80000);
             }
+#if DEBUG
             catch (Exception e)
             {
-#if DEBUG
                 Console.WriteLine(e);
+#else
+            catch {
 #endif
-            }
+        }
 
             if (theme == Style.Dark || theme == Style.Glow || theme == Style.CapturedMotion)
             {
