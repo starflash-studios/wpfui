@@ -5,8 +5,11 @@
 
 using System;
 using System.ComponentModel;
+using System.Runtime.CompilerServices;
 using System.Windows;
 using System.Windows.Media.Imaging;
+
+using JetBrains.Annotations;
 
 namespace WPFUI.Common
 {
@@ -118,5 +121,12 @@ namespace WPFUI.Common
             if (Type != null && Type.GetMethod("OnNavigationRequest") != null)
                 Type.GetMethod("OnNavigationRequest")?.Invoke(Instance, new[] { sender });
         }
+
+        /// <summary>
+        /// Called when a property is changed.
+        /// </summary>
+        /// <param name="PropertyName">The name of the property.</param>
+        [NotifyPropertyChangedInvocator]
+        public virtual void OnPropertyChanged( [CallerMemberName] string PropertyName = null ) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(PropertyName));
     }
 }

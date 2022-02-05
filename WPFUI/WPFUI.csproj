@@ -41,6 +41,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="JetBrains.Annotations" Version="2021.3.0" />
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="Fonts\FiraCode-Regular.ttf" />
     <Resource Include="Fonts\FluentSystemIcons-Filled.ttf" />
     <Resource Include="Fonts\FluentSystemIcons-Regular.ttf" />
